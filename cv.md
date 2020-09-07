@@ -1,5 +1,7 @@
 # rsschool-cv
 # Polina Glazko
+Saint Petersburg  
+pol-glazko@yandex.ru  
 # Skills
 * HTML
 * CSS
