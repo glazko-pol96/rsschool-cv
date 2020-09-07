@@ -7,3 +7,5 @@
 # Education
 *SPBSTU, 2015-2019*  
 *ITMO, 2020-2022*  
+# English
+English level: B2  
