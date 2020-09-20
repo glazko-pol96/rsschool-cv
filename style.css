@@ -1,0 +1,78 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  /*Visual*/
+  list-style: none;
+  
+  /*Positioning*/
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /*Box-model*/
+  max-width: 1024px;
+  
+  /*Positioning*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.information {
+  /*Positioning*/
+  margin-left:50px;
+}
+
+.name {
+  /*Typography*/
+  font-family: PT Sans Caption, sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 62px;
+  margin-bottom: 10px;
+  color: #000000;
+}
+.text,
+li {
+  /*Typography*/
+  font-family: PT Sans Caption;
+  font-weight: regular;
+  font-size: 18px;
+  line-height: 18px;
+  color: #868686;
+}
+
+li+li {
+  /*Positioning*/
+  padding-bottom: 6px;
+}
+
+.contacts {
+  /*Positioning*/
+  margin-bottom: 50px;
+}
+
+.title {
+  /*Typography*/
+  font-family: PT Sans Caption;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 36px;
+  color: #000000;
+  
+  /*Positioning*/
+  padding-bottom: 10px;
+}
+
+.skills,
+.education {
+  /*Positioning*/
+  margin-bottom: 30px;
+}
